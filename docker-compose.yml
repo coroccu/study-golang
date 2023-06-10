@@ -1,0 +1,9 @@
+version: '3'
+services:
+  study-golang:
+    build: .
+    image: study-golang
+    container_name: study-golang
+    tty: true
+    volumes:
+      - ./work:/go/src/work
